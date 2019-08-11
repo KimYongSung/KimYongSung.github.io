@@ -1,1 +1,63 @@
-theme: jekyll-theme-slate
+# Site
+name: "생각정리"
+title: "Mediumish"
+description: "생각정리 블로그"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /kimyongsung.github.io/
+google_analytics: ''
+disqus: ''
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  sal:
+    name: kys0213
+    display_name: kys0213
+    gravatar:
+    email: dydtjd0245@gmail.com
+    web: https://kimyongsung.github.io
+    twitter:
+    description: "java 백엔드 개발자"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
