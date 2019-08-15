@@ -1,5 +1,8 @@
-_site
+.idea
 .DS_Store
-*.swp
 .sass-cache
-*~
+Gemfile.lock
+package-json.lock
+_site
+node_modules
+_drafts

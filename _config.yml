@@ -1,58 +1,48 @@
-# Site
-name: "생각정리"
-title: "Mediumish"
-description: "생각정리 블로그"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: /kimyongsung.github.io/
-google_analytics: ''
-disqus: ''
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
-include: ["_pages"]
-permalink: /:title/
+# Site Settings
+title: 생각정리
+email: dydtjd0245@gmail.com
+description: 이것저것 정리하는 블로그
+baseurl: ""
+url: ""
+#url: "https://kimyongsung.github.io"
+#google_analytics: "UA-XXXXXXXX-X"
 
-# Authors
-authors:
-  sal:
-    name: kys0213
-    display_name: kys0213
-    gravatar:
-    email: dydtjd0245@gmail.com
-    web: https://kimyongsung.github.io
-    twitter:
-    description: "java 백엔드 개발자"
+# User Settings
+username: kys0213
+user_description: 자바 백엔드 개발자
+#disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+github_username: KimYongSung
+facebook_username: 100024155509064
+#twitter_username: twitter_username
+instagram_username: kim_yongsoung
+#linkedin_username: linkedin_username
+#medium_username: medium_username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+paginate: 12
+paginate_path: "/page/:num/"
+svg_color: "#ff0a16"
 
 # Plugins
 plugins:
+  - jemoji
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
-markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
-
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
