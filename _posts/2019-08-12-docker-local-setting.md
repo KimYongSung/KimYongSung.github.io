@@ -22,7 +22,7 @@ introduction: 도커 로컬 환경 설정 구성기
 
 아래 경로에 접속하시면 Docker Toolbox를 다운로드 가능합니다.
 
-https://github.com/docker/toolbox/releases
+<https://github.com/docker/toolbox/releases>
 
 ![docker_homepage](../assets/img/20190812/docker_download.jpg)
 
@@ -67,13 +67,13 @@ next 클릭
 ```text
 docker-machine -D regenerate-certs default
 ```
-참고 링크 : https://github.com/docker/kitematic/issues/1008 
+참고 링크 : <https://github.com/docker/kitematic/issues/1008> 
 
 ### 3.2 virtualbox E_FAIL (0x80004005) 에러
 
 * 첫번째. 버츄얼박스 Extension Pack 설치
     
-    * link : https://www.virtualbox.org/wiki/Downloads
+    * link : <https://www.virtualbox.org/wiki/Downloads>
 
 * 두번째. DRM 프로그램으로 인한 실패
 
