@@ -80,8 +80,6 @@ docker-machine -D regenerate-certs default
     * 악명높은 fasoo drm 으로 인하여 실행 실패
     * 저는 두번째 케이스로 실행이 안됐습니다
 
-다음 포스트는 Docker를 사용하여 ubuntu 와 nginx를 구성해보겠습니다.
-
 -----
 
 

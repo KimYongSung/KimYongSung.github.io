@@ -58,10 +58,6 @@ Head dump에서는 특이사항을 확인 할 수 없었고.. 그렇다면 뭐�
 
 해당 답변을 보면, 아래와 같습니다.
 
-GC가 발생할 때 발생 하는 스왑 공간이나 네트워킹 활동과 같은 OS 활동으로 인해 GC가 더 오래 지속될 수 있습니다 . 
-
-이러한 일시 정지는 몇 초에서 몇 분 정도일 수 있습니다 .
-
 >Sometimes the OS activities such as the swap space or networking activity happening at the time when GC is taking place can make the GC pauses last much longer. These pauses can be of the order of few seconds to some minutes.
 >
 >If your system is configured to use swap space, Operating System may move inactive pages of memory of the JVM process to the swap space, to free up memory for the currently active process which may be the same process or a different process on the system. Swapping is very expensive as it requires disk accesses which are much slower as compared to the physical memory access. So, if during a garbage collection the system needs to perform swapping, the GC would seem to run for a very long time.
