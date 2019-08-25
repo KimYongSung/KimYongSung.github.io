@@ -4,7 +4,7 @@ title: "GC와 OS SWAP Memory"
 date: 2019-08-20 23:26:40
 image: '../assets/img/20190820/garbage_collection.png'
 description: SWAP 메모리 사용시 GC 시간 증가 케이스
-category: 'troubleshooting'
+category: 'trouble shooting'
 tags:
 - troubleshooting
 introduction: SWAP 메모리 와 GC

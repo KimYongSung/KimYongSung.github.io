@@ -1,4 +1,4 @@
 ---
 layout: category
-category: 'troubleshooting'
+category: 'trouble shooting'
 ---
