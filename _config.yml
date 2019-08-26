@@ -10,7 +10,7 @@ url: ""
 # User Settings
 username: kys0213
 user_description: 자바 백엔드 개발자
-#disqus_username: disqus_username
+disqus_username: kysblog
 
 # Social Media
 # Remove the item if you don't need it
