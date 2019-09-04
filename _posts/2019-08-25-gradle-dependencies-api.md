@@ -10,7 +10,7 @@ tags:
 introduction: Gradle java library plugin
 ---
 
-평상시 낮선 Gradle 대신 익숙한 maven을 주로 사용하던 중 우아한형제들의 기술블로그에서 권용근님이 작성하신 '[멀티모듈 설계 이야기 with Spring, Gradle](http://woowabros.github.io/study/2019/07/01/multi-module.html)'를 보고 토이프로젝트에 적용해보기로 했습니다.
+평상시 사내에서 Gradle 대신 익숙한 maven을 주로 사용하던 중 우아한형제들의 기술블로그에 권용근님이 작성하신 '[멀티모듈 설계 이야기 with Spring, Gradle](http://woowabros.github.io/study/2019/07/01/multi-module.html)'를 보고 토이프로젝트에 적용해보기로 했습니다.
 
 여러 뻘짓을 해가며 멀티모듈 구성을 진행하는 중 Could not find method api() 에러가 발생하여 확인이 필요했습니다. 
 
