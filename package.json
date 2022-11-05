@@ -28,7 +28,7 @@
     "autoprefixer-stylus": "^0.14.0",
     "browser-sync": "^2.18.13",
     "child_process": "^1.0.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^3.3.0",
     "gulp-plumber": "^1.1.0",
